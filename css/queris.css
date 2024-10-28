@@ -1,0 +1,265 @@
+@media (max-width:1366px) {
+    
+}
+
+
+/****  *****/
+@media (max-width:1200px) {
+    html{
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width:944px) {
+    html{
+        font-size: 50%;
+    }
+    .box-call{
+        display: grid;
+        
+        gap: 2.4rem;
+        font-size: 1.2rem;
+        
+    }
+    .call-text{
+    
+        padding: 0;
+        
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        gap: 6.4rem;
+        text-align: center;
+    }
+    .how .container h1{
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-left: 2.4rem;
+    }
+    .how .container span{
+        margin-left: 2.4rem;
+    }
+    .meals-container-card{
+        column-gap: 4.8rem;
+        margin-left: 2.4rem;
+    }
+    .head .name,
+    .head .title{
+        margin: 2.4rem;
+    }
+    .call-section{
+        
+        margin: 6rem auto;
+        max-height: 60rem;
+    }
+    .box-call{
+        grid-template-columns: 1fr;
+        margin: 0 9.6rem;
+        gap: 2.4rem;
+        padding-bottom: 2.4rem;
+        
+    }
+    .call-image{
+        padding-bottom: 2.4rem;
+    }
+    .call-text h1,
+    .call-text p{
+        margin-left: 2.4rem;
+        margin-bottom: 3.2rem;
+    }
+    .icon-pricing{
+        /* margin: 2.4rem; */
+        gap: 3.2rem;
+        margin: 0 2.4rem;
+    }
+    .footer-section{
+        margin: 6rem 2.4rem 0;
+        gap: 3.2rem;
+    }
+    .customer{
+        justify-content: center;
+    }
+    .hero-img img{
+        width: 60%;
+        
+        text-align: center;
+    }
+    
+    
+}
+
+/* ***** 704px */
+@media (max-width: 704px){
+    .logos img{
+        height: 2.4rem;
+    }
+    .meals-container-card{
+        max-width: 120rem;
+        margin: 0 2.4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 9.6rem;
+        row-gap: 4.8rem;
+        
+    }
+    .meal-card-3{
+        grid-column: 1 / -1;
+        justify-self: center;
+        
+    }
+    .testimon{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 6.2rem;
+        
+    }
+    .testimon-gallary
+    {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+           gap: 1.6rem;
+           padding: 1.6rem;
+    }
+    .call-section{
+        max-height: 64rem;
+        grid-template-columns:  2fr 1fr;
+        
+    }
+    .box-call{
+        
+        
+        padding-bottom: 3.2rem;
+        
+    }
+    .call-image{
+        
+        padding-bottom: 2.4rem;
+    }
+    .icon-nav-phone{
+        display: block;
+        font-size: 2.4rem;
+    }
+    .icon-nav-phone2{
+        display: none;
+        font-size: 2.4rem;
+    }
+    header:hover .icon-nav-phone{
+        display: none;
+    }
+    header:hover .icon-nav-phone2{
+        display: block;
+    }
+    .main-nav{
+        display: none;
+    }
+}
+
+
+@media (max-width: 34em) {
+    .logos img{
+        height: 1.6rem;
+    }
+    .footer-section{
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr) ;
+        gap: 3.2rem;
+        grid-template-areas: "card1 card1 card2 card2 card3 card3"
+                                "card4 card4 card4 card5 card5 card5";
+    }
+    .footer-section .card{
+        grid-area: card4;
+    }
+    .footer-section .f-card1{
+        grid-area: card5;
+    }
+    .footer-section .f-card2{
+        grid-area: card1;
+    }
+    .footer-section .f-card3{
+        grid-area: card2;
+    }
+    .footer-section .f-card4{
+        grid-area: card3;
+    }
+    .card-plan{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 9.6rem;
+    }
+    .plan-card,
+    .plan-card2{
+        justify-self: center;
+    }
+    .icon-pricing{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .text-pricing p{
+        margin-left: 2.4rem;
+    }
+    .call-section{
+        max-height: 860px;
+        grid-template-columns:  1fr;
+        grid-template-rows: 2fr 4fr;
+        grid-template-areas: "img" "call";
+    }
+    .box-call{
+        grid-area: call;
+        
+        padding-bottom: 3.2rem;
+        
+    }
+    .call-image{
+        grid-area: img;
+        padding-bottom: 2.4rem;
+        background-position: center;
+        height: 410px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 1.8rem;
+
+    }
+    .box-call{
+        padding: 0;
+        
+        gap: 1.2rem;
+    }
+    .call-text p{
+        
+        
+        margin-top: 1rem;
+        margin-bottom: 2.4rem;
+    }
+    .box-call .card-call:last-child{
+        margin-top: 2.4rem;
+    }
+    .how .container2{
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas: "how2" "how1" "how4" "how3" "how6" "how5";
+        row-gap: 1.2rem;
+    }
+    .how1{
+        grid-area: how1;
+    }
+    .how2{
+        grid-area: how2;
+    }
+    .how3{
+        grid-area: how3;
+    }
+    .how4{
+        grid-area: how4;
+    }
+    .how5{
+        grid-area: how5;
+    }
+    .how5{
+        grid-area: how5;
+    }
+
+
+    
+    
+
+}
